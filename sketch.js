@@ -1,6 +1,6 @@
-var starImg, fairyImg, bgImg;
-var fairy , fairyVoice;
+var starImg,bgImg;
 var star, starBody;
+//create variable for fairy sprite and fairyImg
 
 const Engine = Matter.Engine;
 const World = Matter.World;
@@ -10,10 +10,7 @@ const Body = Matter.Body;
 function preload()
 {
 	starImg = loadImage("images/star.png");
-	fairyImg = loadAnimation("images/fairyImage1.png","images/fairyImage2.png");
-	bgImg = loadImage("images/starNight.png");
-	fairyVoice = loadSound("sound/JoyMusic.mp3");
-
+	//load animation for fairy here
 }
 
 function setup() {
