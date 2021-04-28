@@ -9,8 +9,32 @@
       <script src="p5.js"></script>
       <script src="p5.play.js"></script>
       <script src="p5.sound.js"></script>
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+      <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDFWsqyZOxbUmDpXhBXL7-tAwocehsiBYY",
+    authDomain: "quiz-1d2a9.firebaseapp.com",
+    projectId: "quiz-1d2a9",
+    storageBucket: "quiz-1d2a9.appspot.com",
+    messagingSenderId: "784661988449",
+    appId: "1:784661988449:web:c2f0c8f1ed44e778145620"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
 
       <script src="sketch.js"></script>
+      <script src="Quiz.js"></script>
+      <script src="Player.js"></script>
+      <script src="Question.js"></script>
+
 
     </head>
     <body>
